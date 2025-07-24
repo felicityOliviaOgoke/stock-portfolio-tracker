@@ -70,7 +70,9 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
+*.py[cod]
 
 # project-specific folders
 logs/
+*.log
 target/
