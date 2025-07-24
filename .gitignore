@@ -6,3 +6,71 @@ __pycache__/
 *.sqlite3
 *.log
 .DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter notebooks' checkpoints
+.ipynb_checkpoints/
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Model checkpoints and large files
+*.pth
+*.pt
+*.onnx
+
+# Google Drive mount (Colab)
+content/drive/
+
+# Logs and outputs
+*.log
+logs/
+runs/  # TensorBoard logs
+*.csv
+
+# Data and cache files
+*.npy
+*.npz
+*.h5
+*.pkl
+*.joblib
+*.cache/
+datasets/
+checkpoints/
+deployed-models/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output folders
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.*
+
+
+# PyCharm stuff
+.idea/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# project-specific folders
+logs/
+target/
