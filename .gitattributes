@@ -1,0 +1,30 @@
+# Mark non-source folders as vendored (ignored from language stats)
+.venv/* linguist-vendored
+__pycache__/* linguist-vendored
+*.egg-info linguist-vendored
+logs/* linguist-generated
+data/* linguist-generated
+
+
+# Force correct language statistics *.py linguist-language=Python
+*.sql linguist-language=SQL
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+*.csv linguist-language=CSV
+*.dbt linguist-language=SQL
+
+
+
+# Treat DBT models and macros as SQL
+models/**/*.sql linguist-language=SQL
+macros/**/*.sql linguist-language=SQL
+dbt/**/*.sql linguist-language=SQL
+
+# Set text automatically for normalization (line endings)
+* text=auto
+
+# Ignore binary files from diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
