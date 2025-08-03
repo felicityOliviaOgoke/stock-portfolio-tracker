@@ -78,4 +78,4 @@ stock-portfolio-tracker/
 
 
 
-*Happy tracking!*
+*enjoy tracking!*
