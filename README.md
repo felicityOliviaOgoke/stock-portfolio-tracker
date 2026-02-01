@@ -76,6 +76,3 @@ stock-portfolio-tracker/
 ---
 <img width="824" height="272" alt="image" src="https://github.com/user-attachments/assets/9e7b844a-faac-48e8-ae20-7865da570273" />
 
-
-
-*enjoy tracking!*
